@@ -1,0 +1,27 @@
+# Teasers whose link matches any of these substrings get hidden.
+# The script walks up from the <a> to its ARTICLE/SECTION/LI container and hides
+# that, so the whole teaser goes, not just the link text.
+# Matched against the RESOLVED absolute URL (a.href), so relative hrefs work too.
+
+# --- games, puzzles, daily quiz (Wordle, Sudoku, Kreuzwortraetsel, ...) ---
+spiegel.de/games/
+
+# --- Sport:  (live scores/tables) ---
+spiegel.de/sport/
+sportdaten.spiegel.de
+11freunde.de
+
+# --- Commercial / gambling promos ---
+kaufradar.spiegel.de           # Kaufradar deals
+lotto.spiegel.de               # Lotto
+gluecksspirale.spiegel.de      # Gluecksspirale (same category as Lotto)
+
+# --- Uncomment any of these to hide them too ---------------------------------
+# shop.spiegel.de              # SPIEGEL Shop
+# abo.spiegel.de               # subscription ads
+# reisewelt.spiegel.de         # SPIEGEL Reisewelt
+# streaming-guide.spiegel.de   # Streaming-Guide
+# spiegel.de/effilee/          # Effilee recipes
+# manager-magazin.de           # manager magazin
+# spiegel.de/tests/            # product reviews / Stiftung Warentest
+# spiegel.de/deinspiegel/      # Dein SPIEGEL (kids)

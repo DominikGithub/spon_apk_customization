@@ -1,0 +1,14 @@
+# Section headings to hide. Matched as a case-insensitive SUBSTRING of an
+# h1-h4's text; the whole SECTION the heading sits in is hidden. This clears the
+# orphaned block headers that hide.txt leaves behind once its teasers are gone.
+#
+# Keep these specific. A bare "spiele" would also match "Beispiele".
+
+11freunde
+spiegel games
+games & quiz
+spiele, die nicht langweilig
+
+# Uncomment to hide these blocks too:
+# spiegel shop
+# bestseller bei spiegel+

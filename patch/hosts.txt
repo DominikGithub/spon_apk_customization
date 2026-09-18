@@ -1,0 +1,64 @@
+# Ad / ad-tech / measurement hosts blocked inside the article WebView.
+# Matching is exact-host OR any subdomain (host == entry, or host endsWith "." + entry).
+# Lines starting with # and blank lines are ignored.
+
+# --- Google ad stack (GPT, AdSense/AdX, Ad Manager) ---
+doubleclick.net
+googlesyndication.com
+googletagservices.com
+googleadservices.com
+googletagmanager.com
+google-analytics.com
+adservice.google.com
+adservice.google.de
+
+# --- SSPs / exchanges / header bidding (called by Prebid) ---
+criteo.net
+criteo.com
+adnxs.com
+pubmatic.com
+rubiconproject.com
+casalemedia.com
+smartadserver.com
+yieldlab.net
+improvedigital.com
+360yield.com
+openx.net
+sharethrough.com
+3lift.com
+adsrvr.org
+bidswitch.net
+media.net
+amazon-adsystem.com
+id5-sync.com
+
+# --- German / Ad Alliance stack used by SPIEGEL ---
+adition.com
+adalliance.io
+spiegel.media
+emetriq.de
+ad-delivery.net
+btloader.com
+brwsrfrm.com
+
+# --- Content recommendation / native ads ---
+outbrain.com
+taboola.com
+teads.tv
+opinary.com
+
+# --- Measurement, tracking, verification ---
+ioam.de
+iocnt.net
+sensic.net
+scorecardresearch.com
+chartbeat.com
+chartbeat.net
+quantserve.com
+crwdcntrl.net
+adsafeprotected.com
+moatads.com
+doubleverify.com
+confiant-integrations.net
+utiq.com
+utiq-aws.net
